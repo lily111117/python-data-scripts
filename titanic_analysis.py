@@ -13,7 +13,7 @@
 '''
 import pandas as pd
 #加载CSV
-df = pd.read_csv(r"C:\Users\user\Documents\titanic\titanic\train.csv")
+df = pd.read_csv("train.csv")
 
 #输出行数、列数
 print(df.shape)
